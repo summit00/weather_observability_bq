@@ -1,6 +1,8 @@
-openmeteo-requests==1.0.0
-pandas==2.1.4
-requests-cache==1.1.0
-retry-requests==1.0.1
-pytz==2023.3
-numpy==1.24.4
+openmeteo-requests==1.7.4
+openmeteo-sdk>=1.0.0  # Required for AirQualityApiResponse
+niquests>=3.5.0       # Required by openmeteo-requests 1.7.4+
+pandas==2.3.3
+requests-cache==1.2.1
+retry-requests==2.0.0
+pytz==2025.2
+numpy>=1.24.0         # Required by pandas
